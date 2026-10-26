@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>MedOmeet Designs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2f5;--card:#ffffff;--ink:#16232e;--muted:#4a5a66;--line:#dfe6ec;--green:#17784f;--green-ink:#ffffff}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0f171d;--card:#16232e;--ink:#eef2f5;--muted:#b4c0ca;--line:#2d3f4c;--green:#2fa36f;--green-ink:#0f171d}}
+:root[data-theme="dark"]{--bg:#0f171d;--card:#16232e;--ink:#eef2f5;--muted:#b4c0ca;--line:#2d3f4c;--green:#2fa36f;--green-ink:#0f171d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Plus Jakarta Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:880px;margin:0 auto;padding:40px 16px 56px}
+h1{font-size:30px;font-weight:800;margin:0 0 8px}
+.lead{font-size:16px;line-height:1.55;color:var(--muted);margin:0 0 28px}
+.grid{display:grid;gap:16px}
+a.card{display:flex;align-items:center;gap:20px;padding:22px 24px;background:var(--card);border:1px solid var(--line);border-radius:16px;color:inherit;text-decoration:none}
+a.card:hover,a.card:focus-visible{border-color:var(--green);outline:none;box-shadow:0 0 0 3px color-mix(in srgb,var(--green) 25%,transparent)}
+.txt{flex:1;min-width:0}
+.txt h2{font-size:20px;font-weight:700;margin:0 0 4px}
+.txt p{font-size:15px;line-height:1.5;color:var(--muted);margin:0}
+.go{flex-shrink:0;height:44px;padding:0 18px;border-radius:12px;background:var(--green);color:var(--green-ink);font-size:15px;font-weight:700;display:inline-flex;align-items:center}
+.note{font-size:15px;line-height:1.55;color:var(--muted);margin:28px 0 0}
+@media (max-width:560px){a.card{flex-direction:column;align-items:stretch}.go{justify-content:center}}
+</style>
+</head>
+<body>
+<main>
+<h1>MedOmeet designs with surgery</h1>
+<p class="lead">Surgery is part of the front desk and the IPD ward screens, not a separate module. Open a design, then click any button to move between screens.</p>
+<div class="grid">
+<a class="card" href="MedOmeet_Front_Desk_with_Surgery.html"><div class="txt"><h2>Front desk</h2><p>Hold a bed, admit for a planned surgery, insurance pre-approval, package on the patient page and the discharge bill.</p></div><span class="go">Open</span></a>
+<a class="card" href="MedOmeet_IPD_with_Surgery.html"><div class="txt"><h2>IPD ward</h2><p>Nurse and ward work for each patient, the surgery steps inside the patient page, discharge summary templates.</p></div><span class="go">Open</span></a>
+<a class="card" href="MedOmeet_Doctor_Portal_with_Surgery.html"><div class="txt"><h2>Doctor portal</h2><p>Surgery cases, check before anaesthesia, consent, operation note and orders after surgery, inside the doctor's IPD screens.</p></div><span class="go">Open</span></a>
+</div>
+<p class="note">These pages open in any browser. No login and no Claude account are needed. All names and numbers are sample data.</p>
+</main>
+</body>
+</html>
